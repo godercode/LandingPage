@@ -1,0 +1,171 @@
+/* Big tablet to 1200px; */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  .heading-main-box {
+    transform: translate(10%);
+  }
+  form {
+    margin-left: 30%;
+  }
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width: 1023px) {
+  .logo {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .menu ul {
+    margin-right: 5px;
+    margin-top: -20px;
+  }
+  .menu ul li {
+    margin-right: 10px;
+  }
+
+  .products-section .btn {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .product-box {
+    width: 100%;
+  }
+  h3 {
+    font-size: 90%;
+  }
+  .product-box ul li {
+    margin-left: 5%;
+  }
+  .product-box .small-icon {
+    margin-right: 5px;
+  }
+  .social-icons li {
+    margin-left: 10px;
+  }
+  .information i {
+    display: block;
+  }
+  .information li {
+    font-size: 14px;
+  }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+  .col {
+    width: 100%;
+  }
+  .menu ul {
+    visibility: hidden; /*biến mất menu*/
+  }
+  .logo {
+    width: 350px;
+    margin-left: 10%;
+  }
+  h1 {
+    word-spacing: 2px;
+    font-size: 250%;
+  }
+  .heading-main-box {
+    transform: translate(7%, -30%);
+  }
+  .heading-main-box .btn {
+    width: 35%;
+  }
+  .about-section .row .p-long {
+    font-size: 20px;
+  }
+  .about-picture {
+    text-align: center;
+  }
+  .about-picture img {
+    width: 70%;
+  }
+  .picture-title {
+    font-size: 25px;
+    left: 55%;
+  }
+
+  .product-box {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .product-box ul li {
+    margin-left: 10%;
+  }
+
+  .testimonials-section .row .col {
+    margin: 30px;
+  }
+
+  figcaption {
+    visibility: hidden;
+  }
+  .sponsor-logo img {
+    width: 110px;
+  }
+  form {
+    width: 80%;
+    margin-left: 10%;
+  }
+  label {
+    margin-left: 35%;
+  }
+  .information {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .information li {
+    font-size: 15px;
+  }
+  .social-icons {
+    text-align: center;
+  }
+  .social-icons li {
+    font-size: 60px;
+  }
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .logo {
+    width: 220px;
+    margin-left: 20%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  .heading-main-box {
+    transform: translate(20%, -30%);
+  }
+  .heading-main-box .btn {
+    display: block;
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 5%;
+  }
+  .sponsor-logo img {
+    width: 80px;
+  }
+  .information li {
+    font-size: 14px;
+  }
+  .social-icons li {
+    font-size: 40px;
+  }
+  form {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-left: 10%;
+  }
+}
